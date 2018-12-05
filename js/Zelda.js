@@ -1,12 +1,9 @@
-function cityOnClick(){
-	window.location.href("./Zelda.html#descricao");
+function cityOnClick(var id){
+	window.location.href = "./Zelda.html#descricao";
 }
 
-
-/*----------------------------------*/
-
-$.ready(function(){
-
-	$("city1.1").onClick(cityOnClick);
-
+$(document).ready(function(){
+	$('#city11').click(function(){
+		 cityOnClick();
+	});
 });
