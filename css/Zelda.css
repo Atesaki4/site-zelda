@@ -1,5 +1,7 @@
 body {
 	margin: 0;
+	max-width: 100.05%;
+	overflow-x: hidden;
 }
 
 .capa{
@@ -45,7 +47,9 @@ hr.style-two {
 
 .holderHolder{
 	margin: 1vh;
-	width: 97.6vw;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	max-width: 97.6vw;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -53,8 +57,8 @@ hr.style-two {
 .area{
 	border-style: solid;
 	border-width: 2px;
-	width: 18vw;
-	height: 95vh;
+	width: 17vw;
+	height: 90vh;
 	float: left;
 	transition: all .4s ease-in-out;
 	background: black;
@@ -120,4 +124,15 @@ hr.style-two {
 	color: white;
 	text-align: justify;
 	text-indent: 20px;
+}
+#closeDesc{
+	float: right;
+	right: 0;
+	color: yellow;
+	border: 1px solid yellow;
+	position: absolute;
+	bottom: -48%;
+	margin-right: 3%;
+	background: none;
+
 }
